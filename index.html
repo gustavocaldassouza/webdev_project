@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Restaurant</h1>
+      <h2>Order</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <span>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="your name"
+              size="8"
+              maxlength="20"
+            />
+          </span>
+        </div>
+        <div class="form-group">
+          <label>Entrées:</label>
+          <div>
+            <label
+              ><input
+                type="checkbox"
+                name="entrees"
+                value="carpaccio"
+              />Carpaccio</label
+            >
+            <label
+              ><input type="checkbox" name="entrees" value="foie_gras" />Foie
+              gras</label
+            >
+            <label
+              ><input
+                type="checkbox"
+                name="entrees"
+                value="cheese_balls"
+              />Cheese balls</label
+            >
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Dressings:</label>
+          <div>
+            <label
+              ><input
+                type="radio"
+                name="dressing"
+                value="no_dressing"
+                checked
+              />No dressing</label
+            >
+            <label
+              ><input type="radio" name="dressing" value="home_dressing" />Home
+              dressing</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="dressing"
+                value="ceaser_dressing"
+              />Ceaser dressing</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="dressing"
+                value="thousand_islands_dressing"
+              />Thousand islands dressing</label
+            >
+          </div>
+        </div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </div>
+  </body>
+</html>
