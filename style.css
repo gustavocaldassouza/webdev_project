@@ -47,7 +47,7 @@ button[type="submit"] {
     margin-left: 100px;
 }
 
-label:hover {
+.form-group:hover {
     font-weight: bold;
 }
 
